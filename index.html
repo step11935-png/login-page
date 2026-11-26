@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="login-desktop.css">
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="login-tabs.css">
+    <link rel="stylesheet" media="screen and (max-width:480px)" href="login-phone.css">
+</head>
+<body>
+    <div id="box">
+        <h1> Login</h1>
+        <div class="userbox">
+        <i class="fa-solid fa-user"></i>
+        <input type="text"id="name"placeholder="Username"><br>
+        </div>
+        <div class="passbox">
+        <i class="fa-solid fa-lock"></i>
+        <input type="password"id="pass"placeholder="Password"><br>
+        </div>
+        <div class="forget">
+            <div class="remember">
+            <input type="checkbox"id="check"><br>
+            <label for="username">Remember me</label>
+        </div>
+        <a href=""> Forget Password?</a>
+        </div>
+
+        <button id="btn">Login</button><br>
+        <p> 
+            Don't have a account? <a href="register-page.html">Register</a>
+        </p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
