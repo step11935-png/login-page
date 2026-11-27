@@ -37,10 +37,11 @@ h1 {
     padding: 2px;
     display: flex;
     margin: 20px auto;
+    border: 2px solid;
     border-radius: 5px;
     border-width: 1px;
     align-items: center;
-    background-color: #cbd5e1;
+    border-color:#1e293b;
 }
 
 #name {
@@ -59,10 +60,11 @@ h1 {
     padding: 2px;
     display: flex;
     margin: 2g0px auto;
+    border: 2px solid;
     border-radius: 5px;
     border-width: 1px;
     align-items: center;
-    border-color: #cbd5e1;
+    border-color:#1e293b;
 }
 
 #pass {
