@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
 }
 
 body {
@@ -8,7 +9,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(45, 36, 80);
+    background-color: #0f172a;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -27,6 +28,7 @@ body {
 
 h1 {
     margin-bottom: 5vh;
+    color: #1e293b;
 }
 
 .userbox {
@@ -38,7 +40,7 @@ h1 {
     border-radius: 5px;
     border-width: 1px;
     align-items: center;
-    background-color: aliceblue;
+    background-color: #cbd5e1;
 }
 
 #name {
@@ -60,7 +62,7 @@ h1 {
     border-radius: 5px;
     border-width: 1px;
     align-items: center;
-    background-color: aliceblue;
+    border-color: #cbd5e1;
 }
 
 #pass {
@@ -81,10 +83,10 @@ h1 {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     font-size: large;
-    background-color: rgb(72, 236, 135);
+    color: white;
+    background-color: #111827;
 }
 
 #btn:hover {
@@ -98,12 +100,11 @@ h1 {
 
 p {
     font-size: 12px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 10px;
 }
 
 p a {
-    color: #00ffff;
+    color: #2563eb;
     cursor: pointer;
 }
 
@@ -113,7 +114,6 @@ p a {
     justify-content: center;
     font-size: 12px;
     gap: 2px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .forget {
@@ -124,9 +124,16 @@ p a {
     justify-content: space-between;
     margin: 2vh auto;
     font-size: 12px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .forget a {
-    color: #00ffff;
+   color: #2563eb;
+}
+#show{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
 }
