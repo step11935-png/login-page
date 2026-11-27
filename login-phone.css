@@ -11,7 +11,8 @@ body {
     align-items: center;
     justify-content: center;
 #box{
-    width: 75%;
+    width: 92%;
     overflow-y:auto;
     max-height:92vh;
+    box-sizing:border-box;
 }
